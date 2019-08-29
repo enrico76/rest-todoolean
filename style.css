@@ -17,4 +17,32 @@
   padding: 50px 25px;
 
   overflow: hidden;
+  background: #ff7f50;
+}
+h1 {
+  text-align: center;
+
+}
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  float: left;
+  margin-top: 3em;
+  width: 100%;
+  overflow: hidden;
+}
+.box {
+  position: relative;
+  display: flex;
+  width: 250px;
+  height: 150px;
+  background: orange;
+  color: white;
+}
+.box p.delete {
+  position: absolute;
+  right: 15px;
+  background: white;
+  color: black;
 }

@@ -13,17 +13,31 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.1.0/handlebars.min.js" charset="utf-8"></script>
     <!-- TEMPLATE: MESSAGE MENU -->
     <script id="item-template" type="text/x-handlebars-template">
+      <div class="box" data-id="{{id}}">
+        <p class="delete">X</p>
+        <span>{{text}}</span>
+      </div>
     </script>
 
     <!-- CSS: MY STYLE -->
     <link rel="stylesheet" href="style.css">
     <!-- JS: MY SCRIPT -->
-    <script src="script.js" charset="utf-8"></script>
-  
+    <script src="myscript.js" charset="utf-8"></script>
+
 
     <title>rest-todoolean</title>
   </head>
   <body>
+    <div class="container">
+      <h1>Todo List</h1>
+      <div id="item_wrap"class="wrapper">
+        <!-- <div class="box">
+          <p></p>
+          <span>X</span>
+        </div> -->
+      </div>
+
+    </div>
 
   </body>
 </html>
